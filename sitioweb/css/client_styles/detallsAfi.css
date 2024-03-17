@@ -1,0 +1,16 @@
+main {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+.title-container{
+    text-align: left;
+    margin: 12px 3px;
+}
+.name-content{
+    text-align: left;
+    margin-left: 25px;
+}
+h1 {
+    font-size: 20px;
+}

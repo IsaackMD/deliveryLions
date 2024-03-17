@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  background-color: #292828;
+  font-family: 'Poppins', sans-serif;
+}
+
+img{
+  height: 90px;
+  width: 100px;
+}
+.content{
+  background-image: url("../../administrador/img/BannerAdmin.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.content-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+}
+.content h1{
+  color: white;
+  padding-top: 20px;
+  font-size: 45px;
+  width: 45%;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.content h3{
+  font-style: initial;
+  padding: 10px;
+  width: 100;
+  margin: 0 0 0 0;
+  color: black;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  font-weight: bolder;
+  font-size: 25px;
+  backdrop-filter: blur(10px);
+  background-color: #f7e4d82d;
+  border-radius: 6px;
+}
+
+main div h3{
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+}
+.TipUsuarios{
+  width: 100%;
+  margin: 0px 0px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  column-gap: 1.5rem;
+
+}
+.TipUsuarios a img{
+  object-fit: cover;
+  width: 300px;
+  height: auto;
+  border-radius: 22px ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.itemAfiliado{
+  text-align: center;
+}
+.itemCliente{
+  text-align: center;
+}
+.Agregar{
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+  
+}
+.prueba{
+  position: relative;
+  width: 50%;
+}
+.Texto {
+    background: #935230;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 17px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 30px;
+    z-index: 3;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+.IngresarTxt{
+  z-index: 1;
+  background:#c8835f; 
+  color:white; 
+  font-weight:bold; 
+  padding:19px; 
+  margin-top:40px; 
+  margin-bottom:40px; 
+  text-align:center; 
+  font-size:15px; 
+  border-radius:30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+  width: 90%;
+  border: none;
+}
+.Boton{
+  background:#964A2C; 
+  color:white; 
+  font-weight:bold; 
+  padding:17px;  
+  margin-top:40px; 
+  margin-bottom:40px; 
+  text-align:center; 
+  font-size:15px; 
+  border-radius:30px;
+ 
+}
+.AgregarA{
+  
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  width: 100%;
+  grid-template-columns:1fr 1fr 1fr;
+  
+}
+.prueba1{
+  position: relative;
+  width: 25%;
+
+}
+.prueba2{
+  position: relative;
+  width: 25%;
+}
+.TextoA{
+  background:#935230; 
+  color:rgb(255, 255, 255); 
+  font-weight:bold; 
+  padding:17px; 
+  margin-top:40px; 
+  margin-bottom:40px; 
+  text-align:center; 
+  font-size:15px; 
+  border-radius:30px;
+  z-index: 3;
+  position: absolute;
+  top: -1px;
+  left: -1px;;
+  
+}
+.IngresarTxtA{
+  z-index: 1;
+  background:#c8835f; 
+  color:white; 
+  font-weight:bold; 
+  padding:19px; 
+  margin-top:40px; 
+  margin-bottom:40px; 
+  text-align:center; 
+  font-size:15px; 
+  border-radius:30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+  width: 84%;
+  border: none;
+}
+.BotonA{
+  background:#964A2C; 
+  color:white; 
+  font-weight:bold; 
+  padding:17px;  
+  margin-top:40px; 
+  margin-bottom:40px; 
+  text-align:center; 
+  font-size:15px; 
+  border-radius:30px;
+  border: none;
+}
+
+tbody {
+  font-size: 15px;
+  margin: 40px;     
+  width: 590px; 
+  text-align: left;    
+  border-collapse: collapse;
+  border: 5px solid rgb(255, 255, 255);
+}
+table th{
+  font-size: 13px;     font-weight: normal;     padding: 8px;   background: #964A2C;  color:#FFFFFF;
+  /*border-top: 4px solid #642d00;    border-bottom: 1px solid #000000; color: rgb(0, 0, 0);*/
+}
+table td{
+  padding: 8px;     background: #FF914D;      
+  color: rgb(255, 255, 255);    /*border-top: 1px solid transparent; border-bottom: 1px solid #000000;*/
+}
+tr:hover td { background: #ca6c1f; color: rgb(255, 255, 255); }
+
+@media(max-width: 800px){
+  .hideOnMobile{
+      display: none;
+  }
+  .menu-button{
+      display: block;
+  }
+  .content-text{
+      padding: 40px;
+  }
+
+  .content h1{  
+      width: 70%;
+  }
+  .TipUsuarios{
+      margin: 0px 60px;
+      width: 275px;
+  }
+  .TipUsuarios a img{
+      width: 250px;
+      height: auto;
+  }
+}
+@media(max-width: 450px){
+  .sidebar{
+      width: 100%;
+  }
+  .content-text{
+      padding: 20px;
+  }
+  .TipUsuarios{
+      margin: 0px 20px;
+      width: 175px;
+
+  }
+  .TipUsuarios a img{
+      width: 150px;
+      height: 150px;
+  }
+}
+
